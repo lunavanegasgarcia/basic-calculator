@@ -1,0 +1,67 @@
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 80px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: rgb(57, 55, 55);
+    font-size: large;
+    
+}
+
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: hidden;
+    text-align: end;
+    
+}
+
+input {
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    font-size: 60px;
+    background: rgb(148,187,233);
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
+   font-family: 'Fredoka', sans-serif;
+   font-size: 38px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    padding: 10px;
+    place-items: center;
+    width: 88px;
+    height: 88px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 28px;
+    color: whitesmoke;
+    background: rgb(148,187,233);
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+    border-radius: 20px;
+    border-color: whitesmoke;
+    align-items: center;
+}
+

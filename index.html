@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1> Lu's calculator 💻 </h1>
+    <p> my code </p>
+
+    <div class="calculator">
+        <div class="screen"> 
+            <input type="text" id="display"  disabled>
+        </div>
+        <div class="buttons"> 
+            <button onClick="appendNumber(1)"> 1 </button>
+            <button onClick="appendNumber(2)"> 2 </button>
+            <button onClick="appendNumber(3)"> 3 </button>
+            <button onClick="selectOperation('+')"> + </button>
+            <button onClick="appendNumber(4)"> 4 </button>
+            <button onClick="appendNumber(5)"> 5 </button>
+            <button onClick="appendNumber(6)"> 6 </button>
+            <button onClick="selectOperation('-')"> - </button>
+            <button onClick="appendNumber(7)"> 7 </button>
+            <button onClick="appendNumber(8)"> 8 </button>
+            <button onClick="appendNumber(9)"> 9 </button>
+            <button onClick="selectOperation('*')"> * </button>
+            <button onClick="appendNumber(0)"> 0 </button>
+            <button onClick="resetCalculator()"> AC </button>
+            <button onClick="calculate()"> = </button>
+            <button onClick="selectOperation('/')" > / </button>
+        </div>
+    </div>
+
+
+<script src="./script.js"> </script>
+</body>
+</html>
