@@ -1,7 +1,7 @@
 body {
     background: rgb(238,174,202);
     background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    font-family: 'Fredoka', sans-serif;
+    font-family: "Source Code Pro", monospace;
 }
 
 h1 {
@@ -38,7 +38,7 @@ input {
     padding-left: 20px;
     padding-right: 20px;
     color: whitesmoke;
-   font-family: 'Fredoka', sans-serif;
+   font-family: "Source Code Pro", monospace;
    font-size: 38px;
 }
 
@@ -55,7 +55,7 @@ input {
 button {
     width: 80px;
     height: 80px;
-    font-family: 'Fredoka', sans-serif;
+    font-family: "Source Code Pro", monospace;
     font-size: 28px;
     color: whitesmoke;
     background: rgb(148,187,233);
